@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+// import "./App.css";
+// import { createContext, useState } from "react";
+// import Parent from "./Pages/Parent";
 
+import Counter from "./Pages/Counter";
+import ShortForm from "./Pages/ShortForm/ShortForm";
+
+// export const CounterContext = createContext();
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <CounterContext.Provider value={value}>
+    //   <div className="">
+    //     <Parent></Parent>
+    //   </div>
+    // </CounterContext.Provider>
+    <div>
+      {/* <ShortForm></ShortForm> */}
+      <Counter></Counter>
     </div>
   );
 }
